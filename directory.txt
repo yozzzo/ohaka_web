@@ -1,0 +1,46 @@
+my-app/
+│
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── manifest.json
+│
+├── src/
+│   ├── components/
+│   │   ├── Header.tsx
+│   │   ├── LoginPage.tsx
+│   │   ├── GraveDetails.tsx
+│   │   ├── CreateGrave.tsx
+│   │   └── EditGrave.tsx
+│   │
+│   ├── pages/
+│   │   ├── HomePage.tsx
+│   │   ├── GraveDetailsPage.tsx
+│   │   ├── CreateGravePage.tsx
+│   │   └── EditGravePage.tsx
+│   │
+│   ├── utils/
+│   │   ├── graphql.ts
+│   │   └── api.ts
+│   │
+│   ├── App.tsx
+│   ├── index.tsx
+│   └── styles/
+│       ├── components/
+│       │   ├── Header.scss
+│       │   ├── LoginPage.scss
+│       │   ├── GraveDetails.scss
+│       │   ├── CreateGrave.scss
+│       │   └── EditGrave.scss
+│       │
+│       ├── pages/
+│       │   ├── HomePage.scss
+│       │   ├── GraveDetailsPage.scss
+│       │   ├── CreateGravePage.scss
+│       │   └── EditGravePage.scss
+│       │
+│       └── global.scss
+│
+├── .gitignore
+├── package.json
+└── README.md
